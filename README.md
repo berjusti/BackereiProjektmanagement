@@ -1,60 +1,67 @@
-# 🍞 Bread Supply Chain Database 
+<h1>Perfect Bakery - RFID Enabled Shopping</h1>
 
-This open source project aims to build a database for tracking bread supply chain operations including customers, products, orders, fulfillment processes, and **microbiome data** to enhance yeast production and bread quality.
+<p>This open source project aims to create the perfect bakery experience for <b>every baker in Germany</b> using RFID technology for frictionless shopping and inventory analytics.</p>
 
-## 🥐 Contents
+<h2>Overview</h2>
 
-The database contains tables for:
+<p>The system involves:</p>
 
-- Customers 
-- Products
-- Orders
-- Bakeries 
-- Deliveries
+<ul>
+  <li>RFID tags attached to bakery products</li>
+  <li>RFID readers placed in shopping areas</li> 
+  <li>Mobile app for automatic checkout</li>
+  <li>Database linking products to supply chain data</li>
+</ul>
 
-Additional tables will be added such as:
+<h2>Bakery Database</h2>
 
-- Ingredients
-- Inventory 
-- Production logs
-- Microbiome data
-- Reviews
+<p>The database tracks:</p>
 
-## 📈 Usage 
+<ul>
+  <li>Customers</li>
+  <li>Products</li>
+  <li>Orders</li>
+  <li>Production logs</li>
+  <li>Microbiome data</li>
+  <li>Reviews</li>
+</ul>
 
-The database uses SQLite but can be ported to PostgreSQL or MySQL. Python scripts handle:
+<p>Key goal is integrating microbiome data for certification and traceability.</p>
 
-- Schema creation
-- Populating sample data 
-- Database connectivity
-- Analytics & visualizations
+<h2>Shopping Experience</h2>
 
-## 👩‍🔬 Microbiome Analysis  
+<ol>
+  <li>Customer enters bakery</li>
+  <li>Phone detects their loyalty ID</li>
+  <li>As customer selects items, RFID tags are automatically detected</li>
+  <li>App builds a virtual cart from the RFID IDs</li>
+  <li>Customer checks out by walking out the door</li> 
+  <li>RFID reader at exit detects cart contents and charges account</li>
+</ol>
 
-A key goal is integrating **microbiome data** like:
+<h2>AI/ML Innovation</h2>
 
-- Yeast quality metrics
-- Bread starter cultures
-- Processing environment conditions
+<p>This project utilizes AI to improve sustainability and operations:</p>
 
-To provide **certification** and **traceability** of bread products.
+<ul>
+  <li>Product recognition to reduce packaging</li>
+  <li>Recommendation system to minimize unsold goods</li>
+  <li>Inventory forecasting to decrease food waste</li> 
+</ul>
 
-## 🤝 Open Collaboration
+<h2>Getting Started</h2>
 
-As an open source project, we welcome contributions! 
+<pre>
+  <code>
+  pip install -r requirements.txt
+  python simulation.py
+  </code>
+</pre>
 
-Get involved by:
+<h2>Contributing</h2>
 
-- Implementing machine learning models  
-- Expanding supply chain data tracking
-- Developing open hardware sensors
-- Creating apps and visualizations
-- Forming partnerships with bakeries and labs
+<p>We welcome contributions! Please contact us to get involved.</p>
 
-## 📚 Documentation
+<h2>License</h2>
 
-Comprehensive documentation makes it easy for new collaborators to join. 
-
-## ⚖️ License
-
-This project is open source under the [MIT License](LICENSE).
+<p>This project is open source under the MIT License.</p>
